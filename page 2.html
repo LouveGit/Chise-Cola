@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chise'Cola - Nos Produits</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
+
+    <script src="Traduction.js"></script>
+
+    <script src="carousel.js"></script>
+
+    <link rel="stylesheet" href="mise en page.css">
+
+</head>
+<body>
+
+  <header>
+
+    <section class="BackNav"> 
+    </section>
+
+    <nav id="menu">
+
+        <style>
+
+            #burger{
+                width: 60px;
+                height: 60px;
+                position: relative;
+            }
+    
+            #burger div{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                background-color: #DECE1F;
+                width: 80%;
+                height: 10%;
+                transition:top 0.3s 0.3s, width 0.3s 0.55s, transform 0.3s;
+            }
+    
+            #burger div:first-child {
+                top: 30%;
+            }
+    
+            #burger div:last-child {
+                top: 70%;
+            }
+    
+            #menu.visible #burger div{
+                transition: top 0.3s 0.05s, width 0.3s, transform 0.3s 0.55s;
+            }
+    
+            #menu.visible #burger div:first-child, #menu.visible #burger div:last-child{
+                top: 50%;
+            }
+    
+            #menu.visible #burger div:first-child{
+                transform: translate(-50%,-50%) rotate(45deg);
+            }
+    
+            #menu.visible #burger div:last-child{
+                transform: translate(-50%,-50%) rotate(-45deg);
+            }
+    
+            #menu.visible #burger div:nth-child(2){
+                width: 0;
+            }
+    
+        </style>
+
+        <section class="logo_chise"> 
+
+            <a href="index.html"><img src="images/chisecola.png" style="height:100%" href="index.html"></a>
+
+        </section>
+
+        <section class="logo_insta"> 
+
+            <a href="https://www.instagram.com/chisecolaofficial/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+
+        </section>
+
+        <button>
+
+            <label id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label></button>
+
+        <ul>
+          <li><a href="index.html">Accueil<br><span class="japan">いらっしゃいませ</span></a></li>
+                <li><a href="page 2.html">Nos Produits<br><span class="japan">当社の製品</span></a></li>
+                <li><a href="page 3.html">Notre Histoire<br><span class="japan">私たちの物語</span></a></li>
+                <li><a href="page 4.html">Nos Collaborations<br><span class="japan">私たちのコラボレーション</span></a></li>
+                <li><a href="page 5.html">Nous Contacter<br><span class="japan">お問い合わせ</span></a></li>
+
+          <section class="bouton_langues">
+            <select id="language-selector">
+                <option value="fr">Français</option>
+                <option value="ja">日本語</option>
+            </select>
+        </section>
+        </ul>
+
+    </nav>
+
+  </header>
+
+  <main>
+    
+    <h1 data-translate="title1_Produits">Nos Produits</h1>
+  
+
+
+    <section class="carousel-produits-chise'cola">
+
+    <div class="box">
+      <div class="carousel_chise-cola">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/iloveimg-resized/c-cherry-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iloveimg-resized/c-guava-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iloveimg-resized/c-mango-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iloveimg-resized/c-vanilla-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iloveimg-resized/c-passion fruit-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iloveimg-resized/c-green yuzu-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iloveimg-resized/c-dragon fruit-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/iloveimg-resized/c-blueberry-min.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+      <div class="légende_carousel">
+      <div id="légende_carousel" >
+      </div>
+      </div>
+    </div>
+    
+
+    <div id="text_cola_0" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Cherry</h5>
+      <p class="légende">Boisson pétillante goût cerise.</p>
+    </div>
+    </div>
+
+    <div id="text_cola_1" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Guava</h5>
+      <p class="légende">Boisson pétillante goût goyave.</p>
+    </div>
+    </div>
+
+    <div id="text_cola_2" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Mango</h5>
+      <p class="légende">Boisson pétillante goût mangue.</p>
+    </div>
+    </div>
+
+    <div id="text_cola_3" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Vanilla</h5>
+      <p class="légende">Boisson pétillante goût vanille.</p>
+    </div>
+    </div>
+
+    <div id="text_cola_4" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Passion Fruit</h5>
+      <p class="légende">Boisson pétillante goût fruit de la passion.</p>
+    </div>
+    </div>
+
+    <div id="text_cola_5" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Grenn Yuzu</h5>
+      <p class="légende">Boisson pétillante goût yuzu vert.</p>
+    </div>
+    </div>
+
+    <div id="text_cola_6" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Dragon Fruit</h5>
+      <p class="légende">Boisson pétillante goût fruit du dragon.</p>
+    </div>
+    </div>
+
+    <div id="text_cola_7" class="hidden">
+    <div class="légende_cola">
+      <h5>Chise'Cola Blueberry</h5>
+      <p class="légende">Boisson pétillante goût myrtille.</p>
+    </div>
+    </div>
+
+  </section>
+
+    <div class="empty_space">
+    </div>
+
+    <h2 data-translate="title2_Produits">Black Eyes Edition</h2> <p class="limited">Collection limitée</p>
+
+
+    <section class="produits">
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain1.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-cherry-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Cherry</h5>
+              <p class="card-text">Boisson pétillante goût cerise.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain2.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-guava-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Guava</h5>
+              <p class="card-text">Boisson pétillante goût goyave.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain3.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-mango-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Mango</h5>
+              <p class="card-text">Boisson pétillante goût mangue.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain4.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-vanilla-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Vanilla</h5>
+              <p class="card-text">Boisson pétillante goût vanille.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain5.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-passion fruit-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Passion Fruit</h5>
+              <p class="card-text">Boisson pétillante goût fruit de la passion.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain6.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-green yuzu-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Grenn Yuzu</h5>
+              <p class="card-text">Boisson pétillante goût yuzu vert.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain7.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-dragon fruit-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Dragon Fruit</h5>
+              <p class="card-text">Boisson pétillante goût fruit du dragon.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+      <div class="box">
+          <div class="card" style="width: 18rem; background-image: url(images/gggrain8.svg);
+    background-size: 175%;">
+              <img src="images/iloveimg-resized/c-blueberry-min.png" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Chise'Cola Blueberry</h5>
+              <p class="card-text">Boisson pétillante goût myrtille.</p>
+              <button class="btn btn-primary">En rupture de stock</button>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <h2 data-translate="title2_Produits">Coming soon</h2> <p class="limited">Bouteilles en verre</p>
+  
+  <section class="GlassBottle">
+    <img src="images/rainbow.png" alt="...">
+</section>
+
+  </main>
+
+  <div class="empty_space">
+  </div>
+
+  <footer>
+        
+    <section class="pied-de-page"> 
+    
+      <p>Chise'Cola ® ~ Design by : 𝕃𝕠𝕦𝕧𝕖 </p>
+      <a href="page 6.html">Mentions Légales</a>
+            
+    </section>
+
+  </footer>
+
+  <script>
+
+        let menu = document.querySelector("#menu");
+
+        menu.querySelector("button").onclick = function() {
+            menu.classList.toggle("visible");
+
+        }
+
+  </script>
+
+</body>
+</html>

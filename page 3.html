@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chise'Cola - Notre Histoire</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
+    
+    <script src="Traduction.js"></script>
+
+    <link rel="stylesheet" href="mise en page.css">
+
+</head>
+<body>
+    
+    <header>
+
+        <section class="BackNav"> 
+        </section>
+
+        <nav id="menu">
+
+            <style>
+
+                #burger{
+                    width: 60px;
+                    height: 60px;
+                    position: relative;
+                }
+        
+                #burger div{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    background-color: #DECE1F;
+                    width: 80%;
+                    height: 10%;
+                    transition:top 0.3s 0.3s, width 0.3s 0.55s, transform 0.3s;
+                }
+        
+                #burger div:first-child {
+                    top: 30%;
+                }
+        
+                #burger div:last-child {
+                    top: 70%;
+                }
+        
+                #menu.visible #burger div{
+                    transition: top 0.3s 0.05s, width 0.3s, transform 0.3s 0.55s;
+                }
+        
+                #menu.visible #burger div:first-child, #menu.visible #burger div:last-child{
+                    top: 50%;
+                }
+        
+                #menu.visible #burger div:first-child{
+                    transform: translate(-50%,-50%) rotate(45deg);
+                }
+        
+                #menu.visible #burger div:last-child{
+                    transform: translate(-50%,-50%) rotate(-45deg);
+                }
+        
+                #menu.visible #burger div:nth-child(2){
+                    width: 0;
+                }
+        
+            </style>
+
+            <section class="logo_chise"> 
+    
+                <a href="index.html"><img src="images/chisecola.png" style="height:100%" href="index.html"></a>
+
+            </section>
+
+            <section class="logo_insta"> 
+    
+                <a href="https://www.instagram.com/chisecolaofficial/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+    
+            </section>
+
+            <button>
+    
+                <label id="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label></button>
+
+            <ul>
+                <li><a href="index.html">Accueil<br><span class="japan">いらっしゃいませ</span></a></li>
+                <li><a href="page 2.html">Nos Produits<br><span class="japan">当社の製品</span></a></li>
+                <li><a href="page 3.html">Notre Histoire<br><span class="japan">私たちの物語</span></a></li>
+                <li><a href="page 4.html">Nos Collaborations<br><span class="japan">私たちのコラボレーション</span></a></li>
+                <li><a href="page 5.html">Nous Contacter<br><span class="japan">お問い合わせ</span></a></li>
+
+                <section class="bouton_langues">
+                    <select id="language-selector">
+                        <option value="fr">Français</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </section>
+            </ul>
+
+        </nav>
+
+    </header>
+  
+    <main>
+      
+        <h1 data-translate="title_Histoire">Notre Histoire</h1>
+      
+        <section>
+            <br>
+            <p data-translate="texte3-1" id="chapeau">Chise Hayami</p>
+            
+            <div class="box">
+                <div class="text_histoire1">
+                    <p data-translate="texte3-2">Originaire de Kagoshima, au sud du Japon, c'est dans la plongée et la natation que cette femme talentueuse connais ses premiers succès avec 6 championnats nationaux remportés.
+                    À l'âge de 22ans, elle fonde le Black Eyes, un petit bar convivial dans le quartier de Shinagawa à Tokyo.</p>
+                    <p data-translate="texte3-3">
+                    Fort de son succès, elle lance le paris fou de créer une marque de soda 100% Nipponne dans le plus grand respect de la nature, la santé et la dignité humaine.</p>
+                </div>
+    
+                <div class="image_histoire1">
+                    <section class="BlackEyes">
+                        <img src="images/black eyes.png" alt="...">
+                    </section>
+                </div>
+
+            </div>
+
+            <br>
+
+            <p data-translate="texte3-4" id="chapeau">de l'idée... aux bulles</p>
+
+            <div class="box">
+
+                <div class="image_histoire2">
+                    <section class="Evo">
+                        <img src="images/évolution.png" alt="...">
+                    </section>
+                </div>
+                
+                <div class="text_histoire2">
+                <p data-translate="texte3-5">C'est de la collaboration entre Chise Hayami et des producteurs locaux Japonais qu'est née Chise'Cola. Notre marque a connue quelques évolutions, mais a toujours gardé comme objectif une démarche de commerce équitable afin de promouvoir les produits locaux et valoriser les petits producteurs. Notre coeur d'activitée est la production de boissons pétillante fruitée.</p>
+                </div>
+
+            </div>
+
+            <br>
+            <br>
+
+            <p data-translate="texte3-6" id="chapeau">Nos Engagements</p>
+
+            <div class="box">
+                <div class="Engagements">
+                <p data-translate="texte3-7">Avec 100% d'ingrédients d'origines naturelles, des fruits cultivés sans pesticides ni OGM par des producteurs indépendant et rémunérés au juste prix de l'est du Japon, notre soda est garantit sans arômes ni colorants artificiels et sans sucre ajoutés.
+                Du cola, du jus de fruits, des bulles et c'est tout !
+                Également soucieux de l'environnement, nos canettes d'aluminium sont 100% recyclables.
+                Nous avons aussi lancé des bouteilles en verres consignées afin qu'elles soient traitées, après consommation, par notre réseau et réutilisées pour être remplis à nouveau, et ce à l'infini !
+                De plus, notre production et transports logistique sont garantis sans empruntes carbone.
+                Bon pour vous, bon pour nous, bon pour la planète, c'est ça le secret d'une boisson qui pétille respectueusement !</p>
+                </div>
+
+            </div>
+
+        </section>
+  
+    </main>
+
+    <div class="empty_space">
+    </div>
+  
+    <footer>
+          
+      <section class="pied-de-page"> 
+      
+        <p>Chise'Cola ® ~ Design by : 𝕃𝕠𝕦𝕧𝕖 </p>
+        <a href="page 6.html">Mentions Légales</a>
+              
+      </section>
+  
+    </footer>
+    
+
+    <script>
+
+        let menu = document.querySelector("#menu");
+
+        menu.querySelector("button").onclick = function() {
+            menu.classList.toggle("visible");
+
+        }
+
+    </script>
+
+
+</body>
+</html>
